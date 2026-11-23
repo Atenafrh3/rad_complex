@@ -40,7 +40,7 @@ if ($search == '') {
         <form method="get" class="pb-3">
             <input type="text" name="search" class="p-1 px-3 rounded border-2 border-success">
             <button type="submit" class="btn btn-success">
-                جستجو
+                search
             </button>
             <?php if ($search) {
 

@@ -134,19 +134,19 @@ if ($search == '') {
                                                     <h4><?= $teacher['id'] ?></h4>
                                                 </li>
                                                 <li class="d-flex ">
-                                                    <p class="ms-2">نام : </p>
+                                                    <p class="ms-2">name : </p>
                                                     <?= $teacher['firstname'] ?>
                                                 </li>
                                                 <li class="d-flex ">
-                                                    <p class="ms-2">نام خانوادگی : </p>
+                                                    <p class="ms-2">lastname: </p>
                                                     <?= $teacher['lastname'] ?>
                                                 </li>
                                                 <li class="d-flex ">
-                                                    <p class="ms-2">کد ملی : </p>
+                                                    <p class="ms-2">ncode: </p>
                                                     <?= $teacher['ncode'] ?>
                                                 </li>
                                                 <li class="d-flex ">
-                                                    <p class="ms-2">شماره : </p>
+                                                    <p class="ms-2">phone: </p>
                                                     <?= $teacher['phone'] ?>
                                                 </li>
                                             </ul>
