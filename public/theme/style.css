@@ -1,0 +1,7 @@
+@font-face {
+    font-family: rdana;
+    src: url(./DanaFaNum-Regular.woff2);
+}
+*{
+    font-family: rdana;
+}
