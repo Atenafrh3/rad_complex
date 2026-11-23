@@ -59,12 +59,12 @@ if ($search == '') {
                 <table class="table align-middle">
                     <thead>
                         <tr>
-                            <th>کد دانش آموز</th>
-                            <th>نام </th>
-                            <th>نام خانوادگی</th>
-                            <th>کد ملی</th>
-                            <th>پروفایل</th>
-                            <th>عملیات</th>
+                            <th>student code</th>
+                            <th>name</th>
+                            <th>lastname</th>
+                            <th>ncode</th>
+                            <th>profile</th>
+                            <th>operation</th>
                         </tr>
                     </thead>
                     <tbody>
