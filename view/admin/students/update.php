@@ -27,27 +27,27 @@ require_once "../layouts/sidebar.php";
         <form action="<?= Url("controllers/students/updatecontroller.php?id=").$students['id']?>" method="post" enctype="multipart/form-data">
             <div class="row g-3">
                 <div class="col-md-6">
-                    <label class="form-label">نام</label>
+                    <label class="form-label">name</label>
                     <input type="text" name="firstname" value="<?=$students['firstname']?>" class="form-control">
                 </div>
                 <div class="col-md-6">
-                    <label class="form-label">نام خانوادگی</label>
+                    <label class="form-label">lastname</label>
                     <input type="text" name="lastname" value="<?=$students['lastname']?>" class="form-control">
                 </div>
                 <div class="col-md-6">
-                    <label class="form-label">کد ملی</label>
+                    <label class="form-label">ncode</label>
                     <input type="text" name="ncode" value="<?=$students['ncode']?>" class="form-control">
                 </div>
                 <div class="col-md-6">
-                    <label class="form-label">شماره تلفن</label>
+                    <label class="form-label">phone</label>
                     <input type="text" name="phone" value="<?=$students['phone']?>" class="form-control">
                 </div>
                 <div class="col-12">
-                    <label class="form-label">پروفایل</label>
+                    <label class="form-label">profile</label>
                     <input type="file" class="form-control" value="<?=$students['profile']?>" name="profile" required accept="image/*">
                 </div>
             </div>
-            <button type="submit" class="btn btn-success w-100 mt-3">ثبت</button>
+            <button type="submit" class="btn btn-success w-100 mt-3">submit</button>
         </form>
         <div class="text-center mt-2 small">
             Made by Mohammad Rezaei — <a href="https://MOHAMMAD-REZAEI.IR" target="_blank" rel="noopener" class="text-decoration-none">MOHAMMAD-REZAEI.IR</a>
